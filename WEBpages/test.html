@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visible Password Input</title>
+    <script>
+        function togglePasswordVisibility() {
+            var passwordInput = document.getElementById('password');
+            // var checkbox = document.getElementById('showPassword');
+
+            // passwordInput.type = checkbox.checked ? 'text' : 'password';
+        }
+    </script>
+</head>
+<body>
+
+<form>
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password">
+    <br>
+    <!-- <input type="checkbox" id="showPassword" onchange="togglePasswordVisibility()">
+    <label for="showPassword">Show Password</label> -->
+    <br>
+    <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
